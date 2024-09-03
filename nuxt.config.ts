@@ -1,7 +1,7 @@
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
 export default defineNuxtConfig({
-  modules: ['@nuxtjs/sitemap'],
-
+  modules: ['@nuxtjs/seo'],
+  devtools: { enabled: true },
   nitro: {
     prerender: {
       crawlLinks: true,
