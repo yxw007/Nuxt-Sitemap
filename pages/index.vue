@@ -5,13 +5,13 @@
     </div>
     <br />
     <div>
-      <NuxtLink to="/blog/post-a">Post A</NuxtLink>
+      <NuxtLink to="/cn/blog/post-a">Post A</NuxtLink>
     </div>
     <div>
-      <NuxtLink to="/blog/post-b">Post B</NuxtLink>
+      <NuxtLink to="/cn/blog/post-b">Post B</NuxtLink>
     </div>
     <div>
-      <NuxtLink to="/blog/post-c">Post C</NuxtLink>
+      <NuxtLink to="/cn/blog/post-c">Post C</NuxtLink>
     </div>
   </div>
 </template>

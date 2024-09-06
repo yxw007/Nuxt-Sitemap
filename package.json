@@ -2,15 +2,17 @@
   "private": true,
   "scripts": {
     "build": "nuxt build",
-    "dev": "nuxt dev",
+    "dev": "nuxt dev --port 12002",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
+    "@nuxtjs/i18n": "^8.5.2",
     "nuxt": "^3.13.0"
   },
   "dependencies": {
     "@nuxtjs/seo": "2.0.0-rc.20"
-  }
+  },
+  "packageManager": "pnpm@8.1.0+sha512.7b61fbdf04d1c667397d617fe9026a6eec14e8edcd455642d46d561571bc12a7cdffe641bbc5d51c96703c7e978740f16c4a19830f3fc32daeb60083c0fbb84a"
 }
